@@ -6,6 +6,16 @@ Base model: [Extreme-Parkour](https://extreme-parkour.github.io/)
 
 https://github.com/user-attachments/assets/aa9f7ece-83c1-404f-be50-6ae6a3ba3530
 
+https://private-user-images.githubusercontent.com/121331111/558498472-c0c805a6-0295-41c5-ab8b-36fd2e7549f0.mp4
+
+
+https://private-user-images.githubusercontent.com/121331111/558500992-6d9f913a-55e0-414d-9c91-a73b205877d3.mp4
+
+https://private-user-images.githubusercontent.com/121331111/558501529-f703775f-0af7-4548-a497-d020c7d76a5a.mp4
+
+https://private-user-images.githubusercontent.com/121331111/558501946-52c77f49-7902-453f-a432-deae63d6d459.mp4
+
+
 
 ## How to install 
 

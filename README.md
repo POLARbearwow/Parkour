@@ -4,10 +4,10 @@ Isaaclab based Parkour locomotion
 
 Base model: [Extreme-Parkour](https://extreme-parkour.github.io/)
 
-https://github.com/user-attachments/assets/aa9f7ece-83c1-404f-be50-6ae6a3ba3530
+
+### 自主设计的机器人
 
 https://private-user-images.githubusercontent.com/121331111/558498472-c0c805a6-0295-41c5-ab8b-36fd2e7549f0.mp4
-
 
 https://private-user-images.githubusercontent.com/121331111/558500992-6d9f913a-55e0-414d-9c91-a73b205877d3.mp4
 
@@ -16,144 +16,6 @@ https://private-user-images.githubusercontent.com/121331111/558501529-f703775f-0
 https://private-user-images.githubusercontent.com/121331111/558501946-52c77f49-7902-453f-a432-deae63d6d459.mp4
 
 
-
-## How to install 
-
-```
-cd IsaacLab ## going to IsaacLab
-```
-
-```
-https://github.com/CAI23sbP/Isaaclab_Parkour.git ## cloning this repo
-```
-
-```
-cd Isaaclab_Parkour && pip3 install -e .
-```
-
-```
-cd parkour_tasks && pip3 install -e .
-```
-
-## How to train policies
-
-### 1.1. Training Teacher Policy
-
-```
-python scripts/rsl_rl/train.py --task Isaac-Extreme-Parkour-Teacher-Unitree-Go2-v0 --seed 1 --headless
-```
-
-### 1.2. Training Student Policy
-
-```
-python scripts/rsl_rl/train.py --task Isaac-Extreme-Parkour-Student-Unitree-Go2-v0 --seed 1 --headless
-```
-
-## How to play your policy 
-
-### 2.1. Pretrained Teacher Policy 
-
-Download Teacher Policy by this [link](https://drive.google.com/file/d/1JtGzwkBixDHUWD_npz2Codc82tsaec_w/view?usp=sharing)
-
-
-### 2.2. Playing Teacher Policy 
-
-```
-python scripts/rsl_rl/play.py --task Isaac-Extreme-Parkour-Teacher-Unitree-Go2-Play-v0 --num_envs 16
-```
-
-[Screencast from 2025년 08월 16일 12시 43분 38초.webm](https://github.com/user-attachments/assets/ff1f58db-2439-449c-b596-5a047c526f1f)
-
-
-### 2.3. Evaluation Teacher Policy
-
-```
-python scripts/rsl_rl/evaluation.py --task Isaac-Extreme-Parkour-Teacher-Unitree-Go2-Eval-v0 
-```
-
-### 3.1 Pretrained Student Policy 
-
-Download Student Policy by this [link](https://drive.google.com/file/d/1qter_3JZgbBcpUnTmTrexKnle7sUpDVe/view?usp=sharing)
-
-### 3.2. Playing Student Policy 
-
-```
-python scripts/rsl_rl/play.py --task Isaac-Extreme-Parkour-Student-Unitree-Go2-Play-v0 --num_envs 16
-```
-
-https://github.com/user-attachments/assets/82a5cecb-ffbf-4a46-8504-79188a147c40
-
-
-### 3.3. Evaluation Student Policy
-
-```
-python scripts/rsl_rl/evaluation.py --task Isaac-Extreme-Parkour-Student-Unitree-Go2-Eval-v0 
-```
-
-## How to deploy in IsaacLab
-
-[Screencast from 2025년 08월 20일 18시 55분 01초.webm](https://github.com/user-attachments/assets/4fb1ba4b-1780-49b0-a739-bff0b95d9b66)
-
-### 4.1. Deployment Teacher Policy 
-
-```
-python scripts/rsl_rl/demo.py --task Isaac-Extreme-Parkour-Teacher-Unitree-Go2-Play-v0 
-```
-
-
-### 4.2. Deployment Student Policy 
-
-```
-python scripts/rsl_rl/demo.py --task Isaac-Extreme-Parkour-Student-Unitree-Go2-Play-v0 
-```
-
-## Testing your modules
-
-```
-cd parkour_test/ ## You can test your modules in here
-```
-
-## Visualize Control (ParkourViewportCameraController)
-
-```
-press 1 or 2: Going to environment
-
-press 8: camera forward    
-
-press 4: camera leftward   
-
-press 6: camera rightward   
-
-press 5: camera backward
-
-press 0: Use free camera (can use mouse)
-
-press 1: Not use free camera (default)
-```
-
-
-## How to Deploy sim2sim or sim2real
-
-it is a future work, i will open this repo as soon as possible
-
-* [x] sim2sim: isaaclab to mujoco
-
-* [ ] sim2real: isaaclab to real world
-
-see this [repo](https://github.com/CAI23sbP/go2_parkour_deploy)
-
-
-### TODO list
-
-* [x] Opening code for training Teacher model  
-
-* [x] Opening code for training Distillation 
-
-* [x] Opening code for deploying policy in IsaacLab by demo: code refer [site](https://isaac-sim.github.io/IsaacLab/main/source/overview/showroom.html)  
-
-* [x] Opening code for deploying policy by sim2sim (mujoco)
-
-* [ ] Opening code for deploying policy in real world 
 
 ## Citation
 
@@ -191,10 +53,4 @@ The use of this software in academic or scientific publications requires
 explicit citation of the following repository:
 
 https://github.com/CAI23sbP/Isaaclab_Parkour
-```
-
-## contact us 
-
-```
-sbp0783@hanyang.ac.kr
 ```

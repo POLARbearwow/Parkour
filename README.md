@@ -1,22 +1,21 @@
 # Isaaclab_Parkour
 
-Isaac Lab based parkour locomotion.
+Isaaclab based Parkour locomotion 
 
 Base model: [Extreme-Parkour](https://extreme-parkour.github.io/)
 
-## Repository layout
 
-- `parkour_isaaclab/`: core parkour environment, terrain, manager, and MDP logic
-- `parkour_tasks/`: task registration and robot-specific environment configuration
-- `scripts/rsl_rl/`: training, evaluation, demo, and export entry points
-- `parkour_test/`: local test and validation scripts
-- `s2s/`: sim-to-sim deployment and reference experiments
+### 自主设计的机器人
 
-## Notes
+https://private-user-images.githubusercontent.com/121331111/558498472-c0c805a6-0295-41c5-ab8b-36fd2e7549f0.mp4
 
-- The repository contains configuration for both the base Go2 setup and a custom DogV2 robot.
-- Large generated artifacts, editor history, and local task notes are intentionally not tracked in Git.
-- Parts of `s2s/` are experimental deployment references and may require local path or dependency adjustments before use.
+https://private-user-images.githubusercontent.com/121331111/558500992-6d9f913a-55e0-414d-9c91-a73b205877d3.mp4
+
+https://private-user-images.githubusercontent.com/121331111/558501529-f703775f-0af7-4548-a497-d020c7d76a5a.mp4
+
+https://private-user-images.githubusercontent.com/121331111/558501946-52c77f49-7902-453f-a432-deae63d6d459.mp4
+
+
 
 ## Citation
 

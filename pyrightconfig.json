@@ -13,16 +13,12 @@
         "**/_compiler"
     ],
     "extraPaths": [
-        "/home/ares/IsaacLab/Isaaclab_Parkour",
-        "/home/ares/IsaacLab/source/isaaclab_tasks",
-        "/home/ares/IsaacLab/source/isaaclab_assets",
-        "/home/ares/IsaacLab/source/isaaclab_rl",
-        "/home/ares/IsaacLab/source/isaaclab_mimic",
-        "/home/ares/IsaacLab/source/isaaclab"
+        ".",
+        "./parkour_tasks"
     ],
     "pythonVersion": "3.10",
     "typeCheckingMode": "off",
-    "reportMissingImports": true,
+    "reportMissingImports": false,
     "reportMissingTypeStubs": false,
     "reportGeneralTypeIssues": false,
     "reportOptionalMemberAccess": false,
